@@ -1,0 +1,29 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "semicolon": true,
+        "eofline": false,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "curly": false,
+        "interface-name": false,
+        "variable-name": false,
+        "member-access": false,
+        "max-line-length": false,
+        "ban-types": false,
+        "member-ordering": false,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "never"
+            }
+        ]
+    },
+    "rulesDirectory": []
+}

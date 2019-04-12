@@ -1,0 +1,35 @@
+{
+    "name": "neural.ts",
+    "version": "0.0.1",
+    "author": "Gryffon Bellish <owenbellish@gmail.com>",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "lint": "tslint -c tslint.json src/**/**",
+        "lint:fix": "npm lint -- --fix"
+    },
+    "files": [
+        "dist/**/**"
+    ],
+    "description": "A simple neural net, written is TS",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PyroTechniac/neural.ts.git"
+    },
+    "bugs": {
+        "url": "https://github.com/PyroTechniac/neural.ts/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "ts-node": "^8.0.3",
+        "tslint": "^5.15.0",
+        "typescript": "^3.4.3"
+    },
+    "optionalDependencies": {},
+    "peerDependencies": {}
+}
