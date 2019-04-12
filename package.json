@@ -7,7 +7,7 @@
     "scripts": {
         "build": "tsc",
         "lint": "tslint -c tslint.json src/**/**",
-        "lint:fix": "npm lint -- --fix"
+        "lint:fix": "npm run lint -- --fix"
     },
     "files": [
         "dist/**/**"
